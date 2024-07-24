@@ -59,7 +59,7 @@ export const userLogin = async (request, response) => {
     if (user) {
       const token = setToken(user);
       console.log(token);
-      if (user.username == "omitaliya" && user.password == "Omitaliya@2525") {
+      if (user.username == "aksharlakhankiya" && user.password == "Akshar@2004") {
         return response.status(200).json({ data: user, token });
       }
       return response.status(200).json({ data: user, token });

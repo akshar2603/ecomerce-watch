@@ -63,7 +63,7 @@ function App() {
   return (
     <>
       {network ? (
-        account === "omitaliya" ? (
+        account === "aksharlakhankiya" ? (
           <BrowserRouter>
             <Search />
             <Routes>
